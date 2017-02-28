@@ -598,7 +598,7 @@
                           	 Button1.removeActionListener(bnds); 		// прекращение прослушивания кнопки Button1 слушателем bnds
                           	 Button1.removeActionListener(snds); 		// прекращение прослушивания кнопки Button1 слушателем snds
                           	 Button1.removeActionListener(snds1); 		// прекращение прослушивания кнопки Button1 слушателем snds1
- Button1.removeActionListener(bnds1); 		// прекращение прослушивания кнопки Button1 слушателем bnds2
+                            Button1.removeActionListener(bnds1); 		// прекращение прослушивания кнопки Button1 слушателем bnds2
                            }												// конец выполнения действий при выполнении условия оператора if   
                            else if(item == "Отсутствует"){	 			// проверка выполнения логического выражения оператором else if
                             	 comboBox4.setEnabled(true);				// перевод объекта comboBox4 в доступное состояние (для нажатия) методом setEnabled
